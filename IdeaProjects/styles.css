@@ -1,0 +1,35 @@
+body{
+margin: 0;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: antiquewhite;
+
+
+}
+.container{background-color:white;
+width: 400px;
+justify-content: center;
+align-items: center;
+padding-left: 30px;
+}
+.formtitle{color: green;
+font-size: medium;}
+
+
+
+.emailinput,.passwordinput{width: 80%;
+height: 20px;
+margin-bottom: 5px;}
+.button{background-color:purple;
+width: 100px;
+height: 30px;
+
+border-radius: 8px;
+padding-left: 20px;}
+.button:hover{size-adjust: 8%;
+cursor: pointer;
+background-color: green;}
+
+.hidden{display: none;}
